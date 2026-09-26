@@ -1,6 +1,6 @@
 # SNHardcorePlus Remake
 
-Customize the difficulty of your Subnautica survival or hardcore playthrough by editing values — a from-scratch remake of [SNHardcorePlus by qwiso](https://www.nexusmods.com/subnautica/mods/17) for the current version of Subnautica 1 (Living Large / 2025 patch), running on **BepInEx + Nautilus**.
+Customize the difficulty of your Subnautica survival or hardcore playthrough by editing values. A from-scratch remake of [SNHardcorePlus by qwiso](https://www.nexusmods.com/subnautica/mods/17) for the current version of Subnautica 1 (Living Large / 2025 patch), running on **BepInEx + Nautilus**.
 
 ## Requirements
 
@@ -31,7 +31,7 @@ You have two ways (both live, no restart needed):
 
 Rule of thumb: **multipliers default to 1.0** (= vanilla game). Higher makes that thing stronger/faster/hungrier; lower than 1 weakens it. Absolute values (health, food, energy costs) use normal game units.
 
-## All options (33)
+## All options (32)
 
 **Time & world**
 - `DayNightCycleMultiplier` (1.0) — day/night speed. Higher = shorter days. Note: it also speeds up plant growth and crafting, like in vanilla.
@@ -77,7 +77,7 @@ Rule of thumb: **multipliers default to 1.0** (= vanilla game). Higher makes tha
 
 Version 2.0 is a full rewrite: the old `config.json` is gone (deleted automatically? No — **delete it yourself** if it exists next to the dll). Settings now live in `BepInEx\config\SNHardcorePlus.cfg` and the Mods menu. Three defaults changed meaning, so **delete your old `.cfg` once to regenerate it**:
 
-- `Starvation/DehydrationDamageMultiplier`: were absolute 25, now multipliers (1.0 = vanilla). An old 25 would mean 25× damage!
+- `Starvation/DehydrationDamageMultiplier`: were absolute 25, now multipliers (1.0 = vanilla). An old 25 would mean 25x damage!
 - `HealthRegenerationAmount` (absolute) → `HealthRegenerationMultiplier` (1.0 = vanilla).
 - `FoodOverchargeMax`: now defaults to 200 (vanilla) instead of 150.
 
