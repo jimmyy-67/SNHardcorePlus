@@ -12,9 +12,14 @@ Include all three or the report can't be used:
 
 ## Pull requests
 
-- One feature or fix per PR, against `main`.
+External pull requests are NOT accepted: the LICENSE forbids derivatives,
+including bug fixes, without prior written permission. If you want something
+changed, open a bug report with the data above and ask on Discord first.
+
+Maintainer checklist for any change (applies to the author too):
+
 - `dotnet build -c Release` must pass with 0 warnings and 0 errors.
-- Test in-game in Survival mode before opening the PR and say what you tested.
+- Test in-game in Survival mode and say what was tested.
 - Verify new game-code touch points with dnSpy against the installed game DLL
   (`Subnautica_Data\Managed\Assembly-CSharp.dll`, never the NuGet reference stub:
   its method bodies are empty). If vanilla behavior is assumed, quote it.

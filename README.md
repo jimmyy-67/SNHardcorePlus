@@ -89,4 +89,4 @@ Version 2.0 is a full rewrite: the old `config.json` is gone (deleted automatica
 
 ## Credits
 
-Original concept and mod by [qwiso](https://www.nexusmods.com/subnautica/mods/17) - this remake honors that work with all-new code (MIT). Permissions per the Nexus page; do not redistribute qwiso's original zip.
+Original concept and mod by [qwiso](https://www.nexusmods.com/subnautica/mods/17) - this remake honors that work with all-new code by jimmyy-67 under the custom LICENSE in this repo (restrictive, Nexus-style: no re-uploads, no derivatives, no paid use). Respect qwiso's Nexus permissions too; do not redistribute their original zip.
